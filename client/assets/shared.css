@@ -1,0 +1,27 @@
+.centerXY {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.dashboard-details-table-wrapper {
+  margin: 50px 50px;
+}
+
+.dashboard-details-table {
+  font-weight: bold;
+}
+
+.dashboard-details-table-nav {
+  margin-top: 50px;
+}
+
+/** TRANSITIONS **/
+.tweakOpacity-enter-active, .tweakOpacity-leave-active {
+  transition: opacity .40s ease-out;
+}
+.tweakOpacity-enter, .tweakOpacity-leave-active {
+  opacity: 0;
+}
